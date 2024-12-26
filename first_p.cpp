@@ -73,10 +73,14 @@ int main(int argc, char *argv[]) {
         line = formatLine(line);
         if (!empty(line)){
             Instruction inst = parseInstruction(line);
-            cout << "Label: " << inst.label
+            /*TEST intruction parsing: */
+            /*cout << "Label: " << inst.label
                  << ", Operation: " << inst.operation
                  << ", Op1: " << inst.operand1
-                 << ", Op2: " << inst.operand2 << "\n";
+                 << ", Op2: " << inst.operand2 << "\n";*/
+            
+            /*TODO: count label addresses and solve directives */
+
         }
     }
 
